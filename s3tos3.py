@@ -1,9 +1,12 @@
 import json
 import boto3
 
-client  = boto3.client('s3')
-source_bucket = 'offline12-demo'
-destination_bucket  = 'ainexusit-online911'
+client  = boto3.client('s3',
+
+)
+source_bucket = 'row-bucket-01-726092964926-ap-south-1-an '
+destination_bucket  = 'destination-123-buck-726092964926-ap-south-1-an'
+
 
 
 def copy_to_destination_bucket(fname):
