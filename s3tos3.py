@@ -2,7 +2,7 @@ import json
 import boto3
 
 client  = boto3.client('s3')
-source_bucket = 'row-bucket-01-726092964926-ap-south-1-an '
+source_bucket = 'row-bucket-01-726092964926-ap-south-1-an'
 destination_bucket  = 'destination-123-buck-726092964926-ap-south-1-an'
 
 
